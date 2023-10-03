@@ -2,3 +2,27 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
+.ishidden {
+  display: none;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+.photo-card {
+}
+.info {
+}
+.info-item {
+}
