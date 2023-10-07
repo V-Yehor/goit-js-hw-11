@@ -5,15 +5,18 @@ body {
 
 .ishidden {
   display: none;
+  visibility: hidden;
 }
 
 .gallery {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  max-width: calc(100% - 60px) / 4;
+  width: 100%;
   gap: 20px;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
 
 img {
@@ -25,4 +28,22 @@ img {
 .info {
 }
 .info-item {
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.search-form button {
+  border-radius: 10px;
+  border-color: blue;
+}
+.load-more {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-color: blue;
+  border-radius: 10px;
 }
