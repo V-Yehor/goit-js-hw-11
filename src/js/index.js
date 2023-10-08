@@ -96,7 +96,7 @@ async function onLoadBntClick(event) {
   const totalpage = Math.ceil(totalHits / per_page);
   renderMarkup(hits);
 
-  if (page > totalpage) {
+  if (page === totalpage) {
     loadBtn.classList.add('ishidden');
     Notiflix.Notify.info(
       "We're sorry, but you've reached the end of search results."

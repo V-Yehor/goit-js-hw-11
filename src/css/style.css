@@ -39,6 +39,7 @@ img {
 .search-form button {
   border-radius: 10px;
   border-color: blue;
+  cursor: pointer;
 }
 .load-more {
   position: relative;
